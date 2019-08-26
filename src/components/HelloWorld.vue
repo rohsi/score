@@ -1,4 +1,4 @@
-<template>
+<template xmlns="http://www.w3.org/1999/html">
   <div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#"><router-link  to="/stocktrader">StockTrader</router-link></a>
@@ -15,27 +15,25 @@
             <a class="nav-link" href="#"><router-link  to="/Stocks">Stocks</router-link></a>
           </li>
 
-         
+
         </ul>
-         <ul>
+         <ul class="navbar-nav ml-auto"">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown link
+            Save & Load
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Save</a>
+            <a class="dropdown-item" href="#">Load</a>
           </div>
         </li>
-        </ul>
-            <a class="navbar-brand" href="#">End Day</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+           <li class="nav-item active">
+             <a class="nav-link" href="#">End Day</a>
+           </li>
+
+         </ul>
 
 
-          </li>
 
 
 
